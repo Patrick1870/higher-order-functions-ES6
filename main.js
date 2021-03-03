@@ -138,4 +138,6 @@ const combined = ages
 console.log(combined);
 
 
+const combined2 = companies
+	.filter(company => company.category === 'Auto').sort((a, b) => a - b).map(company => console.log(company.name));
 
